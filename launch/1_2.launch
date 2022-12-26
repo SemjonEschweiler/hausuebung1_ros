@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<launch>
+    <!-- <include file="$(find gazebo_ros)launch/empty_world.launch" >
+        <arg name="paused" value="false" />
+        <arg name="use_sim_time" value="true" />
+        <arg name="gui" value="false" />
+    </include> -->
+    <node type="rviz" name="rviz" pkg="rviz"/>
+    <node name="pub_odometry" pkg="hausuebung1_semjon_eschweiler" output="screen" type="pub_odometry">
+        <remap from="/odom" to="/icr"/> 
+    </node>
+    
+</launch>

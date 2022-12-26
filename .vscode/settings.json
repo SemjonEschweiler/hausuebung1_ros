@@ -1,0 +1,17 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/semjon/rosws/devel/lib/python3/dist-packages",
+        "/home/semjon/cws_rcfg/devel/lib/python3/dist-packages",
+        "/home/semjon/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/semjon/rosws/devel/lib/python3/dist-packages",
+        "/home/semjon/cws_rcfg/devel/lib/python3/dist-packages",
+        "/home/semjon/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "files.associations": {
+        "cmath": "cpp"
+    }
+}
